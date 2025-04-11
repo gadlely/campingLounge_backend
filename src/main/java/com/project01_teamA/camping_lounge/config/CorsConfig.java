@@ -18,7 +18,7 @@ public class CorsConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
         //1.setAllowedOrigins - 도메인 허용
-        configuration.setAllowedOrigins(List.of("https://camping-lounge-front-git-master-gadlelys-projects.vercel.app"));
+        configuration.setAllowedOrigins(List.of("https://camping-lounge-front-eoujvdkgp-gadlelys-projects.vercel.app"));
 //        configuration.addAllowedHeader("*");
 //        configuration.addAllowedMethod("*");
 //        configuration.addAllowedOriginPattern("*");
