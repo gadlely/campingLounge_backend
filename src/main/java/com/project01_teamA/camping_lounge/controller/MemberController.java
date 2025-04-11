@@ -22,7 +22,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.util.Collections;
 import java.util.Map;
 
-@CrossOrigin(origins = "https://your-frontend.vercel.app")
+@CrossOrigin(origins = "https://camping-lounge-front.vercel.app")
 @RestController
 @RequestMapping("/member")
 //@RequiredArgsConstructor
